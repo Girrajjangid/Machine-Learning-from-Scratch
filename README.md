@@ -82,6 +82,8 @@ The neural network itself isn't an algorithm, but rather a framework for many di
 - ▶️ [Demo | Bivariate Classification with Artificial Neural Network](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Neural%20Network/BiClass%20Classification%20with%20Neural%20Network%20from%20scratch.ipynb)
 - ▶️ [Demo | Multivariate Classification with Artificial Neural Network using Sigmoid function](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Neural%20Network/MultiClass%20Classification%20Neural%20Network_1(%20with%20sigmoid%20).ipynb)
 - ▶️ [Demo | Multivariate Classification with Artificial Neural Network using ReLu function](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Neural%20Network/MultiClass%20Classification%20Neural%20Network_2(%20with%20ReLu%20).ipynb)
+- ▶️ [Demo | Multivariate Classification with Artificial Neural Network (DevnagariHandwrittenDataSet)](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Neural%20Network/ANN%20(Devnagri%20from%20scratch).ipynb)
+- complete code from scratch ( Must see )
 - ▶️ [Demo | Bunch of Activations](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Neural%20Network/Bunch%20of%20Activation%20Functions.ipynb)
 
 ### 🤖 Perceptron
