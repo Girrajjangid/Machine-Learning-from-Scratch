@@ -126,7 +126,10 @@ In dimentional reduction we select 'K' features from given 'n' features by using
 
 ### Clustering
 
+Clustering is the task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group and dissimilar to the data points in other groups.
+
 #### 🤖 K-Mean
+
 - 📗 [Theory | K-Mean](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/K-Mean%20Clustering/K-Mean%20theory.ipynb) - theory
 
 - ▶️ [Demo | K-Mean](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/K-Mean%20Clustering/K-Mean%20simple%20explanation%20(from%20scratch).ipynb) - from scratch
@@ -167,10 +170,30 @@ A recurrent neural network (RNN) is a class of artificial neural networks where 
 
 ## Optimization Algorithms
 
-### Gradient Decent
+### 🤖 Gradient Decent
 
 - 📗 [Math | Gradient Decent](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Gradient%20Decent/Gradient%20Decent%20%5BSimple%20Explanation%5D.ipynb)
 - ▶️ [Demo | Multivariate Gradient decent](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Gradient%20Decent/Gradient%20Decent%20for%20MultiClass.ipynb)
+
+### 🤖 Gradient Decent Check
+
+- ▶️ [Demo | Gradient Decent Check](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Gradient%20Decent%20Check/Gradient%20check.ipynb)
+
+### 🤖 Gradient Decent with Mini-Batch
+
+- ▶️ [Demo | Gradient Decent with Mini-Batch (Devnagri)](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Gradient%20Decent%20with%20Mini-Batch/DNN%20(Devnagridataset)MiniBatch.ipynb)
+
+### 🤖 Gradient Decent with Adam Optimization
+
+- ▶️ [Demo | Gradient Decent with Adam optimization (MNIST)](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Gradient%20Decent%20with%20Adam/DNN%20(%20Devnagri_mnist%20)%20with%20Adam%20from%20scratch.ipynb) 
+
+### 🤖 Gradient Decent with Momentum Optimization
+
+- ▶️ [Demo | Gradient Decent with Momentum optimization](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Gradient%20Decent%20with%20Momentum/DNN%20(Devnagridataset).ipynb)
+
+### 🤖 Gradient Decent with RMSProp Optimization
+
+- ▶️ [Demo | Gradient Decent with RMSProp optimization](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Gradient%20Decent%20with%20RMSProp/DNN%20(Devnagridataset)%20RMSProp.ipynb)
 
 ### Newton's Raphson Method
 
