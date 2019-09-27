@@ -120,7 +120,16 @@ In dimentional reduction we select 'K' features from given 'n' features by using
 
 - ▶️ [Demo | Non-negative Matrix Factorization](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Non-Negative%20Matrix%20Factorization/NMF%20simple%20implementation%20from%20scratch.ipynb) - simple implement from scratch
 
+#### 🤖 Singular Value Decomposition (SVD)
 
+- ▶️ [Demo | SVD](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Singular%20Value%20Decomposition) - from scratch
+
+### Clustering
+
+#### 🤖 K-Mean
+- 📗 [Theory | K-Mean](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/K-Mean%20Clustering/K-Mean%20theory.ipynb) - theory
+
+- ▶️ [Demo | K-Mean](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/K-Mean%20Clustering/K-Mean%20simple%20explanation%20(from%20scratch).ipynb) - from scratch
 
 ## Neural Networks and Deep Learning
 
@@ -144,7 +153,17 @@ Perceptron is similar to SVM it also construct a hyper plane in high dimension i
 - 📗 [Theory | Perceptron](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Perceptron/Perceptron%20Theory%20Explanation.ipynb) - Theory of perceptron
 - ▶️ [Demo | Perceptron](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Perceptron/Perceptron%20Code%20from%20scratch.ipynb) - code
 
+### 🤖 Recurrent Neural Network (RNN)
 
+A recurrent neural network (RNN) is a class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence. This allows it to exhibit temporal dynamic behavior.
+
+- 📗 [Theory | RNN](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Recurrent%20Neural%20Network/RNN%20theory%20Explanation.ipynb) - theory and explanation
+
+- ▶️ [Demo | RNN](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Recurrent%20Neural%20Network/Vanilla%20RNN%20for%20Single%20Batch%20(from%20scratch).ipynb) - Vanilla RNN for Single-Batch from scratch
+
+- ▶️ [Demo | RNN](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Recurrent%20Neural%20Network/Vanilla%20RNN%20for%20multi%20%20batch%20(from%20scratch).ipynb) - Vanilla RNN for Multi-Batch from scratch
+
+- 📗 [Theory | RNN](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Recurrent%20Neural%20Network/VanillaRNN_BPTT_derivative.pdf) - Derivation of Back Propagation through Time(BPTT).
 
 ## Optimization Algorithms
 
