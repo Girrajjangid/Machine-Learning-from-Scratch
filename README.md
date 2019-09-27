@@ -32,12 +32,46 @@ In regression problems we do real value predictions. Basically we try to draw a 
 #### 🤖 Support Vector Machines (SVMs)
 SVM construct a hyper plane in high dimension which can be used for Classification , regression , or outlier detection.
 
-- 📗 [Math | SVM ](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Support%20Vector%20Machine/2.%20SVM%20with%20hard%20margin%20(from%20scratch).ipynb) - theory and ccode
+- 📗 [Math | SVM ](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Support%20Vector%20Machine/2.%20SVM%20with%20hard%20margin%20(from%20scratch).ipynb) - theory and code
 - ▶️ [Demo | SVM Hard Margin](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Support%20Vector%20Machine/2.%20SVM%20with%20hard%20margin%20(from%20scratch).ipynb) - theory and code
 - ▶️ [Demo | SVM Soft Margin](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Support%20Vector%20Machine/3.%20SVM%20with%20soft%20margin%20(from%20scratch).ipynb) - theory and code
 - ▶️ [Demo | SVM Kernel Trick](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Support%20Vector%20Machine/4.%20Kernel%20Trick.ipynb) - theory and code
 - ▶️ [Demo | SVM Sequential Minimal Optimization( SMO ) ](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Support%20Vector%20Machine/5.%20Sequential%20Minimal%20Optimization%20(%20SMO%20).ipynb) - theory and code
 - ▶️ [Demo | SVM (Multi-class) ](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Support%20Vector%20Machine/6.%20Multi%20Class%20SVM.ipynb) - theory and code
+
+#### 🤖 K nearest neighbors
+
+KNN (K — Nearest Neighbors) is one of many (supervised learning) algorithms used in data mining and machine learning, it’s a classifier algorithm where the learning is based “how similar” is a data (a vector) from other
+
+- 📗 [Math | KNN ](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/K-Nearest%20Neighbors/k-NN%20simple%20explanation.ipynb) - theory
+- ▶️ [Demo | KNN](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/K-Nearest%20Neighbors/k-NN%20wine-quality%20(from%20scratch).ipynb) - code from scratch.
+
+### Ensemble Method
+
+Ensemble learning is a machine learning paradigm where multiple models (often called “weak learners”) are trained to solve the same problem and combined to get better results. The main hypothesis is that when weak models are correctly combined we can obtain more accurate and/or robust models.
+
+- 📗 [Theory | Ensemble Learning ](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/01.%20Ensemble%20Method.ipynb)
+
+- 📗 [Theory | Bootstrap Aggregating](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/02.%20Bootstrap%20Aggregating%20(Bagging).ipynb)
+
+- 📗 [Theory | Random Forest](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/03.%20Random%20Forest%20Theory.ipynb)
+
+- ▶️ [Demo | Random Forest](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/04.%20Random%20Forest%20Implementation.ipynb) - using sklearn
+
+- ▶️ [Demo | Random Forest (hypertune)](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/05.%20Random%20Forest%20(Improve%20Tune%20Param)_1.ipynb) using sklearn
+
+- 📗 [Theory | Boosting](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/06.%20Boosting%20(Theory).ipynb)
+
+- ▶️ [Demo | Adaptative Boosting](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/07.%20Adaptative%20Boosting%20(Adaboost).ipynb) using sklearn
+
+- 📗 [Theory | Gradient Boosting](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/08.%20Gradient%20Boosting%20(Theory).ipynb)
+
+- ▶️ [Demo | Gradient Boosting](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/09.%20Gradient%20Boosting%20(Implementation).ipynb) using sklearn
+
+- 📗 [Theory | Stacking ](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/10.%20Stacking%20(Theory).ipynb)
+
+- ▶️ [Demo | eXtreme Gradient Boosting(XGBoost)](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/11.%20XGBoost%20(eXtreme%20Gradient%20Boosting).ipynb)
+
 
 ### Classification
 
@@ -57,6 +91,13 @@ _Usage examples: benign-malignent-data, wine-quality, MNIST handwritten.
 
 - 📗 [Math | Naive Bayes Classifier](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Naive%20Bayes%20Classifier/Naive%20Bayes%20Classifier%20%5BSimple%20Explanation%20from%20Scratch%5D.ipynb) - theory and links for further readings
 - ▶️ [Demo | Bivariate Naive Bayes Classifier | Benign-Malignent](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Naive%20Bayes%20Classifier/Naive%20Bayes%20Classifier%20%5BBenign_Malignent%5D%20from%20Scratch.ipynb)
+
+#### 🤖 Decision Tree
+
+- ▶️ [Demo | Decision Tree | Wine-quality](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Decision%20Tree/Decision%20Tree%20(Wine_quality).ipynb) from scratch
+
+- ▶️ [Demo | Decision Tree | Multi-class](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Decision%20Tree/Decision%20Tree%20(%20Multiclass%20simple).ipynb)
+
 
 ## Unsupervised Learning
 
