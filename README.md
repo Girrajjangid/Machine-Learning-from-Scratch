@@ -195,7 +195,7 @@ A recurrent neural network (RNN) is a class of artificial neural networks where 
 
 - ▶️ [Demo | Gradient Decent with RMSProp optimization](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Gradient%20Decent%20with%20RMSProp/DNN%20(Devnagridataset)%20RMSProp.ipynb)
 
-### Newton's Raphson Method
+### 🤖 Newton's Raphson Method
 
 - 📗 [Math | Newton's Raphson Method](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Newton's%20Raphson%20Method/Newton's%20Raphson%20Method.ipynb) - Theory
 - ▶️ [Demo | Newton's Raphson Method](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Newton's%20Raphson%20Method/Logistic%20Regression%20with%20%5BNewton's%20Method%20AUC%2CROC%20%20%20from%20%20SCRATCH%5D.ipynb) - Implementation with **ROC and AUC Curve**
