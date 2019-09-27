@@ -56,17 +56,17 @@ Ensemble learning is a machine learning paradigm where multiple models (often ca
 
 - 📗 [Theory | Random Forest](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/03.%20Random%20Forest%20Theory.ipynb)
 
-- ▶️ [Demo | Random Forest](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/04.%20Random%20Forest%20Implementation.ipynb) - using sklearn
+- ▶️ [Demo | Random Forest](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/04.%20Random%20Forest%20Implementation.ipynb) 
 
-- ▶️ [Demo | Random Forest (hypertune)](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/05.%20Random%20Forest%20(Improve%20Tune%20Param)_1.ipynb) using sklearn
+- ▶️ [Demo | Random Forest (hypertune)](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/05.%20Random%20Forest%20(Improve%20Tune%20Param)_1.ipynb) 
 
 - 📗 [Theory | Boosting](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/06.%20Boosting%20(Theory).ipynb)
 
-- ▶️ [Demo | Adaptative Boosting](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/07.%20Adaptative%20Boosting%20(Adaboost).ipynb) using sklearn
+- ▶️ [Demo | Adaptative Boosting](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/07.%20Adaptative%20Boosting%20(Adaboost).ipynb) 
 
 - 📗 [Theory | Gradient Boosting](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/08.%20Gradient%20Boosting%20(Theory).ipynb)
 
-- ▶️ [Demo | Gradient Boosting](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/09.%20Gradient%20Boosting%20(Implementation).ipynb) using sklearn
+- ▶️ [Demo | Gradient Boosting](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/09.%20Gradient%20Boosting%20(Implementation).ipynb) 
 
 - 📗 [Theory | Stacking ](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/10.%20Stacking%20(Theory).ipynb)
 
@@ -111,6 +111,16 @@ In dimentional reduction we select 'K' features from given 'n' features by using
 
 - 📗 [Math | Principal Component Analysis](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Principal%20Component%20Analysis/Principal%20Component%20Analysis%20(%20Simple%20Example%20with%20Detailed%20explanation).ipynb) - theory and explanation
 - ▶️ [Demo | Principal Component Analysis](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Principal%20Component%20Analysis/Principal%20Component%20Analysis%20(%20PCA%20)%20from%20%20scratch.ipynb) - code
+
+#### 🤖 Non-Negative Matrix Factorization (NMF)
+
+- 📗 [Theory | Non-negative Matrix Factorization](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Non-Negative%20Matrix%20Factorization/NMF%20(theory).ipynb) - theory and explanation
+
+- ▶️ [Demo | Non-negative Matrix Factorization](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Non-Negative%20Matrix%20Factorization/NMF%20OOPs%20implement.ipynb) - OOP's implement
+
+- ▶️ [Demo | Non-negative Matrix Factorization](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Non-Negative%20Matrix%20Factorization/NMF%20simple%20implementation%20from%20scratch.ipynb) - simple implement from scratch
+
+
 
 ## Neural Networks and Deep Learning
 
