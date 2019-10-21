@@ -218,3 +218,6 @@ Install all dependencies that are required for the project by running:
 ## Datasets
 
 The list of datasets that is being used for Jupyter Notebook demos may be found in [DataSet Folder](DataSets).
+
+## Clone
+#### ```git clone https://github.com/Girrajjangid/Machine-Learning-from-Scratch.git```
