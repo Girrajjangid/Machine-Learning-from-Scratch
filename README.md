@@ -197,8 +197,8 @@ A recurrent neural network (RNN) is a class of artificial neural networks where 
 
 ### 🤖 Newton's Raphson Method
 
-- 📗 [Math | Newton's Raphson Method](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Newton's%20Raphson%20Method/Newton's%20Raphson%20Method.ipynb) - Theory
-- ▶️ [Demo | Newton's Raphson Method](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Newton's%20Raphson%20Method/Logistic%20Regression%20with%20%5BNewton's%20Method%20AUC%2CROC%20%20%20from%20%20SCRATCH%5D.ipynb) - Implementation with **ROC and AUC Curve**
+- 📗 [Math | Newton's Raphson Method](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Newton's%20Raphson%20Method/Newton's%20Raphson%20Method.ipynb) - Theory
+- ▶️ [Demo | Newton's Raphson Method](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Newton's%20Raphson%20Method/Logistic%20Regression%20with%20%5BNewton's%20Method%20AUC%2CROC%20%20%20from%20%20SCRATCH%5D.ipynb) - Implementation with **ROC and AUC Curve**
 
 ## Prerequisites
 
@@ -208,7 +208,7 @@ Make sure that you have [Python installed](https://realpython.com/installing-pyt
 
 You might want to use [venv](https://docs.python.org/3/library/venv.html) standard Python library
 to create virtual environments and have Python, `pip` and all dependent packages to be installed and 
-served from the local project directory to avoid messing with system wide packages and their 
+served from the local project directory to avoid messing with system-wide packages and their 
 versions.
 
 #### Installing Dependencies
@@ -217,7 +217,7 @@ Install all dependencies that are required for the project by running:
 
 ## Datasets
 
-The list of datasets that is being used for Jupyter Notebook demos may be found in [DataSet Folder](DataSets).
+The list of datasets that are being used for Jupyter Notebook demos may be found in [DataSet Folder](DataSets).
 
 ## Clone
 #### ```git clone https://github.com/Girrajjangid/Machine-Learning-from-Scratch.git```
