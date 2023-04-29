@@ -50,8 +50,17 @@ The purpose of this repository is _not_ to implement machine learning algorithms
   * [AlexNet](#paper-implement)
   * [GoogLeNet](#paper-implement)
   * [ResNet](#paper-implement)
-   
- #-----------------------------------------------------------------------
+- [Deep Learning with Tensorflow](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Deep%20Learning)
+  * [Regression](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Deep%20Learning)
+  * [Classification](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Deep%20Learning)
+  * [Complex Modelling using Functional API](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Deep%20Learning)
+  * [AutoEncoder](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Deep%20Learning)
+  * [Variational AutoEncoder](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Deep%20Learning)
+  * [Generative Adversarial Networks](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Deep%20Learning)
+  * [Attention](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Deep%20Learning)
+  * [Transformer](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Deep%20Learning)
+  
+
 # Machine Learning
 
 ## Supervised Learning
@@ -259,9 +268,80 @@ A recurrent neural network (RNN) is a class of artificial neural networks where 
  * [ResNet](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/Paper%20Implement/04.%20ResNet.ipynb)
 
 
+## Deep Learning with Tensorflow
+- ▶️ [Demo | Deep Learning with Tensorflow](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Deep%20Learning)
+### Regression
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/03.%20Regressor%20using%20Keras%20Sequential%20API.ipynb)
+### Classification
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/02.%20Classifier%20using%20Keras%20Sequential%20API.ipynb)
+### Complex Modelling using Functional API
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/04.%20Complex%20model%20using%20Keras%20Functional%20API.ipynb)
+### Tensorboard 
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/05.%20Tensorboard%2C%20Fine-Tuning.ipynb)
+### Hyperparameter Fine Tuning
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/06.%20Fine-Tuning-2.ipynb)
+### Tensor and Operations
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/07.%20Tensors%20%26%20Operations.ipynb)
+### Custom Model Building
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/08.%20Custom%20Model%20Building.ipynb)
+### Loading and Preprocessing Large Data
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/10.%20Loading%20%26%20Preprocessing%20Data.ipynb)
+### CNN with Tensorflow
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/11.%20CNN%20with%20Tensorflow.ipynb)
+### Sequential Modelling
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/12.%20Sequencial%20Processing%20with%20Tensorflow.ipynb)
+### Character Level Modelling
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/13.%20NLP%20with%20Tensorflow%20Part-1.ipynb)
+### Stateless RNN
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/13.%20NLP%20with%20Tensorflow%20Part-1.ipynb)
+### Stateful RNN
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/13.%20NLP%20with%20Tensorflow%20Part-1.ipynb)
+### Word Level Modelling
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/13.%20NLP%20with%20Tensorflow%20Part-1.ipynb)
+### Sentiment Analysis
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/13.%20NLP%20with%20Tensorflow%20Part-1.ipynb)
+### Encoder-Decoder
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/14.%20NLP%20with%20Tensorflow%20Part-2.ipynb)
+### BiDirectional Layer
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/14.%20NLP%20with%20Tensorflow%20Part-2.ipynb)
+### Beam Search
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/14.%20NLP%20with%20Tensorflow%20Part-2.ipynb)
+### Attention
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/14.%20NLP%20with%20Tensorflow%20Part-2.ipynb)
+### Transformers Multi Head Attention
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/14.%20NLP%20with%20Tensorflow%20Part-2.ipynb)
+### NLP with HuggingFace and Transformers
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/15.%20NLP%20with%20Tensorflow%20%26%20HuggingFace%20Part-3.ipynb)
+### UnderComplete Linear AutoEncoder
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/16.%20Representation%20Learning%20with%20AutoEncoders.ipynb)
+### Stacked AutoEncoder
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/16.%20Representation%20Learning%20with%20AutoEncoders.ipynb)
+### Convolutional AutoEncoder
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/16.%20Representation%20Learning%20with%20AutoEncoders.ipynb)
+### Recurrent AutoEncoder
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/16.%20Representation%20Learning%20with%20AutoEncoders.ipynb)
+### Denoising AutoEncoder
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/16.%20Representation%20Learning%20with%20AutoEncoders.ipynb)
+### Sparse AutoEncoder
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/16.%20Representation%20Learning%20with%20AutoEncoders.ipynb)
+### Variational AutoEncoder
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/16.%20Representation%20Learning%20with%20AutoEncoders.ipynb)
+### Generative Adversarial Networks
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/17.%20Representation%20Learning%20with%20GANs.ipynb)
+### Deep Convolutional GAN
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/17.%20Representation%20Learning%20with%20GANs.ipynb)
+### Hasing using Binary AutoEncoder
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/17.%20Representation%20Learning%20with%20GANs.ipynb)
+### Denoising AutoEncoder 3 Channel Image
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/17.%20Representation%20Learning%20with%20GANs.ipynb)
+### Model Deployment
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/18.%20Model%20Deployment.ipynb)
+### Topic Modelling
+- ▶️ [Demo](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/19.%20Topic%20Modelling.ipynb)
+
 ## Prerequisites
 
-#### Installing Python
+### Installing Python
 
 Make sure that you have [Python installed](https://realpython.com/installing-python/) on your machine.
 
@@ -270,7 +350,7 @@ to create virtual environments and have Python, `pip` and all dependent packages
 served from the local project directory to avoid messing with system-wide packages and their 
 versions.
 
-#### Installing Dependencies
+### Installing Dependencies
 
 Install all dependencies that are required for the project by running:
 
