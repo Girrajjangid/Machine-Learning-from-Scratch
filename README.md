@@ -4,6 +4,54 @@
 
 The purpose of this repository is _not_ to implement machine learning algorithms by using 3<sup>rd</sup> party library one-liners _but_ rather to practice implementing these algorithms from **scratch** and get better understanding of the mathematics behind each algorithm. 
 
+## Table of Contents
+- [Machine Learning](#machine-learning)
+  * [Supervised Learning](#supervised-learning)
+    - [Regression](#regression)
+      + [Linear Regression](#linear-regression)
+      + [Polynomial Regression](#polynomial-regression)
+      + [Lasso/Ridge Regression](#lasso/ridge-regression)
+      + [Support Vector Machines](#support-vector-machines)
+      + [K nearest neighbors](#k-nearest-neighbors)
+    - [Classification](#classification)
+      + [Logistic Regression](#logistic-regression)
+      + [Naive Bayes](#naive-bayes)
+      + [Decision Tree](#decision-tree)
+    - [Ensemble Method](#ensemble-method)
+      + [Bootstrap Aggregating](#ensemble-method)
+      + [Random Forest](#ensemble-method)
+      + [Boosting](#ensemble-method)
+      + [Adaptative Boosting](#ensemble-method)
+      + [Gradient Boosting](#ensemble-method)
+      + [Stacking](#ensemble-method)
+  * [Unsupervised Learning](#unsupervised-learning)
+    - [Dimentional Reduction](#dimentional-reduction)
+      + [Principal Component Analysis](#principal-component-analysis)
+      + [Non-Negative Matrix Factorization](#non-negative-matrix-factorization)
+      + [Singular Value Decomposition](#singular-value-decomposition)
+      + [Non-Negative Matrix Factorization](#non-negative-matrix-factorization)
+    - [Clustering](#clustering)
+      + [K-Mean](#k-mean)
+      + [DBSCAN](#dbscan)
+- [Deep Learning](#deep-learning)
+  * [Perceptron](#perceptron)
+  * [Artificial Neural Network](#artificial-neural-network)
+  * [Convolutional Neural Network](#convolutional-neural-network)
+  * [Recurrent Neural Network](#recurrent-neural-network)
+- [Optimization Algorithms](#optimization-algorithms)
+  * [Gradient Decent](#gradient-decent)
+  * [Gradient Decent Check](#gradient-decent-check)
+  * [Gradient Decent with Mini-Batch](#gradient-decent-with-mini-batch)
+  * [Gradient Decent with Adam Optimization](#gradient-decent-with-adam-optimization)
+  * [Gradient Decent with Momentum Optimization](#gradient-decent-with-momentum-optimization)
+  * [Newton's Raphson Method](#newton's-raphson-method)
+- [Paper Implement](#paper-implement)
+  * [LeNet](#paper-implement)
+  * [AlexNet](#paper-implement)
+  * [GoogLeNet](#paper-implement)
+  * [ResNet](#paper-implement)
+   
+ #-----------------------------------------------------------------------
 # Machine Learning
 
 ## Supervised Learning
@@ -14,22 +62,20 @@ In supervised learning we have a set of training data as an input and a set of l
 
 In regression problems we do real value predictions. Basically we try to draw a line/plane/n-dimensional plane along the training examples. In regression we deal with continuos as well as decreate data
 
-#### 🤖 Linear Regression
+#### 🤖 [Linear Regression](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Linear%20Regression)
+ - 📗 [Math | Linear Regression](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Linear%20Regression/Linear%20Regression%20(Detailed%20Explanation%20from%20scratch).ipynb) - theory and links for further readings
+ - ▶️ [Demo | Univariate Linear Regression](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Linear%20Regression/Linear%20Regression%20(Detailed%20Explanation%20from%20scratch).ipynb) 
 
-- 📗 [Math | Linear Regression](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Linear%20Regression/Linear%20Regression%20(Detailed%20Explanation%20from%20scratch).ipynb) - theory and links for further readings
-- ▶️ [Demo | Univariate Linear Regression](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Linear%20Regression/Linear%20Regression%20(Detailed%20Explanation%20from%20scratch).ipynb) 
 
-
-#### 🤖 Polynomial Regression
-
-- 📗 [Math | Polynomial Regression](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Polynomial%20Regression/Polynomial%20Regression%20(%20Simple%20Explanation%20).ipynb) - theory and links for further readings
-- ▶️ [Demo | Univariate Polynomial Regression](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Polynomial%20Regression/Polynomial%20Regression%20(%20From%20Scratch%20).ipynb) 
+#### 🤖 [Polynomial Regression](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Polynomial%20Regression)
+ - 📗 [Math | Polynomial Regression](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Polynomial%20Regression/Polynomial%20Regression%20(%20Simple%20Explanation%20).ipynb) - theory and links for further readings
+ - ▶️ [Demo | Univariate Polynomial Regression](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Polynomial%20Regression/Polynomial%20Regression%20(%20From%20Scratch%20).ipynb) 
 
 #### 🤖 Lasso/Ridge Regression
 
 - ▶️ [Demo | Lasso/Ridge Regression](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Neural%20Network/Linear%20Regression%20with%20Neural%20Network%20(%20ANN%20from%20Scratch%20).ipynb) -Both regressions are explained with Neural Network. But you can apply in any algorithm also.
 
-#### 🤖 Support Vector Machines (SVMs)
+#### 🤖 Support Vector Machines
 SVM construct a hyper plane in high dimension which can be used for Classification , regression , or outlier detection.
 
 - 📗 [Math | SVM ](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Support%20Vector%20Machine/2.%20SVM%20with%20hard%20margin%20(from%20scratch).ipynb) - theory and code
@@ -40,11 +86,35 @@ SVM construct a hyper plane in high dimension which can be used for Classificati
 - ▶️ [Demo | SVM (Multi-class) ](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Support%20Vector%20Machine/6.%20Multi%20Class%20SVM.ipynb) - theory and code
 
 #### 🤖 K nearest neighbors
+ - KNN (K — Nearest Neighbors) is one of many (supervised learning) algorithms used in data mining and machine learning, it’s a classifier algorithm where the learning is based “how similar” is a data (a vector) from other
+  * 📗 [Math | KNN ](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/K-Nearest%20Neighbors/k-NN%20simple%20explanation.ipynb) - theory
+  * ▶️ [Demo | KNN](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/K-Nearest%20Neighbors/k-NN%20wine-quality%20(from%20scratch).ipynb) - code from scratch.
 
-KNN (K — Nearest Neighbors) is one of many (supervised learning) algorithms used in data mining and machine learning, it’s a classifier algorithm where the learning is based “how similar” is a data (a vector) from other
 
-- 📗 [Math | KNN ](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/K-Nearest%20Neighbors/k-NN%20simple%20explanation.ipynb) - theory
-- ▶️ [Demo | KNN](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/K-Nearest%20Neighbors/k-NN%20wine-quality%20(from%20scratch).ipynb) - code from scratch.
+### Classification
+
+In classification problems we split input examples by certain characteristic.
+
+_Usage examples: benign-malignent-data, wine-quality, MNIST handwritten.
+
+#### 🤖 Logistic Regression
+
+- 📗 [Math | Logistic Regression](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Logistic%20Regression/Logistic%20Regression%20%5BDetailed%20Explanation%5D%20.ipynb) - theory and links for further readings
+- ▶️ [Demo | Logistic Regression (Linear Boundary)](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Logistic%20Regression/Logistic%20Regression%20%5BDetailed%20Explanation%5D%20.ipynb)
+- ▶️ [Demo | Multivariate Logistic Regression | Wine-quality](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Logistic%20Regression/Logistic%20Regression%20Multiclass%20(Wine-Test).ipynb)
+- ▶️ [Demo | Multivariate Logistic Regression | Benign-Malignent](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Logistic%20Regression/Logistic%20Regression%20%5B%20Multi_Classes%20%5D.ipynb)
+
+
+#### 🤖 Naive Bayes
+
+- 📗 [Math | Naive Bayes Classifier](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Naive%20Bayes%20Classifier/Naive%20Bayes%20Classifier%20%5BSimple%20Explanation%20from%20Scratch%5D.ipynb) - theory and links for further readings
+- ▶️ [Demo | Bivariate Naive Bayes Classifier | Benign-Malignent](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Naive%20Bayes%20Classifier/Naive%20Bayes%20Classifier%20%5BBenign_Malignent%5D%20from%20Scratch.ipynb)
+
+#### 🤖 Decision Tree
+
+- ▶️ [Demo | Decision Tree | Wine-quality](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Decision%20Tree/Decision%20Tree%20(Wine_quality).ipynb) from scratch
+
+- ▶️ [Demo | Decision Tree | Multi-class](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Decision%20Tree/Decision%20Tree%20(%20Multiclass%20simple).ipynb)
 
 ### Ensemble Method
 
@@ -73,32 +143,6 @@ Ensemble learning is a machine learning paradigm where multiple models (often ca
 - ▶️ [Demo | eXtreme Gradient Boosting(XGBoost)](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Ensemble%20Learning/11.%20XGBoost%20(eXtreme%20Gradient%20Boosting).ipynb)
 
 
-### Classification
-
-In classification problems we split input examples by certain characteristic.
-
-_Usage examples: benign-malignent-data, wine-quality, MNIST handwritten.
-
-#### 🤖 Logistic Regression
-
-- 📗 [Math | Logistic Regression](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Logistic%20Regression/Logistic%20Regression%20%5BDetailed%20Explanation%5D%20.ipynb) - theory and links for further readings
-- ▶️ [Demo | Logistic Regression (Linear Boundary)](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Logistic%20Regression/Logistic%20Regression%20%5BDetailed%20Explanation%5D%20.ipynb)
-- ▶️ [Demo | Multivariate Logistic Regression | Wine-quality](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Logistic%20Regression/Logistic%20Regression%20Multiclass%20(Wine-Test).ipynb)
-- ▶️ [Demo | Multivariate Logistic Regression | Benign-Malignent](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Logistic%20Regression/Logistic%20Regression%20%5B%20Multi_Classes%20%5D.ipynb)
-
-
-#### 🤖 Naive Bayes
-
-- 📗 [Math | Naive Bayes Classifier](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Naive%20Bayes%20Classifier/Naive%20Bayes%20Classifier%20%5BSimple%20Explanation%20from%20Scratch%5D.ipynb) - theory and links for further readings
-- ▶️ [Demo | Bivariate Naive Bayes Classifier | Benign-Malignent](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Naive%20Bayes%20Classifier/Naive%20Bayes%20Classifier%20%5BBenign_Malignent%5D%20from%20Scratch.ipynb)
-
-#### 🤖 Decision Tree
-
-- ▶️ [Demo | Decision Tree | Wine-quality](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Decision%20Tree/Decision%20Tree%20(Wine_quality).ipynb) from scratch
-
-- ▶️ [Demo | Decision Tree | Multi-class](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Decision%20Tree/Decision%20Tree%20(%20Multiclass%20simple).ipynb)
-
-
 ## Unsupervised Learning
 
 Unsupervised learning is a branch of machine learning that learns from test data that has not been labeled, classified or categorized. Instead of responding to feedback, unsupervised learning identifies commonalities in the data and reacts based on the presence or absence of such commonalities in each new piece of data.
@@ -107,12 +151,12 @@ Unsupervised learning is a branch of machine learning that learns from test data
 
 In dimentional reduction we select 'K' features from given 'n' features by using some techniques. 
 
-#### 🤖 Principal Component Analysis (PCA)
+#### 🤖 Principal Component Analysis
 
 - 📗 [Math | Principal Component Analysis](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Principal%20Component%20Analysis/Principal%20Component%20Analysis%20(%20Simple%20Example%20with%20Detailed%20explanation).ipynb) - theory and explanation
 - ▶️ [Demo | Principal Component Analysis](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Principal%20Component%20Analysis/Principal%20Component%20Analysis%20(%20PCA%20)%20from%20%20scratch.ipynb) - code
 
-#### 🤖 Non-Negative Matrix Factorization (NMF)
+#### 🤖 Non Negative Matrix Factorization
 
 - 📗 [Theory | Non-negative Matrix Factorization](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Non-Negative%20Matrix%20Factorization/NMF%20(theory).ipynb) - theory and explanation
 
@@ -120,7 +164,7 @@ In dimentional reduction we select 'K' features from given 'n' features by using
 
 - ▶️ [Demo | Non-negative Matrix Factorization](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Non-Negative%20Matrix%20Factorization/NMF%20simple%20implementation%20from%20scratch.ipynb) - simple implement from scratch
 
-#### 🤖 Singular Value Decomposition (SVD)
+#### 🤖 Singular Value Decomposition
 
 - ▶️ [Demo | SVD](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Singular%20Value%20Decomposition) - from scratch
 
@@ -134,9 +178,19 @@ Clustering is the task of dividing the population or data points into a number o
 
 - ▶️ [Demo | K-Mean](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/K-Mean%20Clustering/K-Mean%20simple%20explanation%20(from%20scratch).ipynb) - from scratch
 
-## Neural Networks and Deep Learning
+#### 🤖 DBSCAN
 
-The neural network itself isn't an algorithm, but rather a framework for many different machine learning algorithms to work together and process complex data inputs.
+- ▶️ [Demo | K-Mean](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/DBSCAN)
+
+
+## Deep Learning 
+
+### 🤖 Perceptron
+
+Perceptron is similar to SVM it also construct a hyper plane in high dimension if data is linearly seperable.
+
+- 📗 [Theory | Perceptron](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Perceptron/Perceptron%20Theory%20Explanation.ipynb) - Theory of perceptron
+- ▶️ [Demo | Perceptron](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Perceptron/Perceptron%20Code%20from%20scratch.ipynb) - code
 
 ### 🤖 Artificial Neural Network
 
@@ -149,14 +203,10 @@ The neural network itself isn't an algorithm, but rather a framework for many di
 - ▶️ [Demo | Multivariate Classification with Artificial Neural Network ( MNIST )](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Neural%20Network/ANN%20(MNIST%20from%20scratch).ipynb)- complete code from scratch (Accuracy 92 %)
 - ▶️ [Demo | Bunch of Activations](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Neural%20Network/Bunch%20of%20Activation%20Functions.ipynb)
 
-### 🤖 Perceptron
+### 🤖 Convolutional Neural Network
+- ▶️ [Demo | CNN](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Convolutional%20Neural%20Network)
 
-Perceptron is similar to SVM it also construct a hyper plane in high dimension if data is linearly seperable.
-
-- 📗 [Theory | Perceptron](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Perceptron/Perceptron%20Theory%20Explanation.ipynb) - Theory of perceptron
-- ▶️ [Demo | Perceptron](https://github.com/Girrajjangid/MachineLearning_Algorithms/blob/master/Perceptron/Perceptron%20Code%20from%20scratch.ipynb) - code
-
-### 🤖 Recurrent Neural Network (RNN)
+### 🤖 Recurrent Neural Network
 
 A recurrent neural network (RNN) is a class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence. This allows it to exhibit temporal dynamic behavior.
 
@@ -179,7 +229,7 @@ A recurrent neural network (RNN) is a class of artificial neural networks where 
 
 - ▶️ [Demo | Gradient Decent Check](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Gradient%20Decent%20Check/Gradient%20check.ipynb)
 
-### 🤖 Gradient Decent with Mini-Batch
+### 🤖 Gradient Decent with Mini Batch
 
 - ▶️ [Demo | Gradient Decent with Mini-Batch (Devnagri)](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Gradient%20Decent%20with%20Mini-Batch/DNN%20(Devnagridataset)MiniBatch.ipynb)
 
@@ -199,6 +249,15 @@ A recurrent neural network (RNN) is a class of artificial neural networks where 
 
 - 📗 [Math | Newton's Raphson Method](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Newton's%20Raphson%20Method/Newton's%20Raphson%20Method.ipynb) - Theory
 - ▶️ [Demo | Newton's Raphson Method](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Optimization%20Methods/Newton's%20Raphson%20Method/Logistic%20Regression%20with%20%5BNewton's%20Method%20AUC%2CROC%20%20%20from%20%20SCRATCH%5D.ipynb) - Implementation with **ROC and AUC Curve**
+
+## Paper Implement
+
+### 🤖 [Paper Implement](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/tree/master/Deep%20Learning/Paper%20Implement)
+ * [LeNet](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/Paper%20Implement/01.%20LeNet-5.ipynb)
+ * [AlexNet](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/Paper%20Implement/02.%20AlexNet.ipynb)
+ * [GoogLeNet](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/Paper%20Implement/03.%20GoogLeNet.ipynb)
+ * [ResNet](https://github.com/Girrajjangid/Machine-Learning-from-Scratch/blob/master/Deep%20Learning/Paper%20Implement/04.%20ResNet.ipynb)
+
 
 ## Prerequisites
 
